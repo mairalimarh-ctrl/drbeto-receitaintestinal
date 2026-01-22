@@ -1,0 +1,8 @@
+{
+  "name": "Receita Lache - Diagnóstico Personalizado",
+  "description": "Uma jornada interativa de diagnóstico intestinal que leva a uma receita natural personalizada para o esvaziamento saudável.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
