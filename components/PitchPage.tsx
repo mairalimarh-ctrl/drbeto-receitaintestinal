@@ -4,6 +4,8 @@ import { IMAGES, VIDEO_2_ID, VIDEO_2_PARAMS } from '../constants';
 import LiteVideoPlayer from './LiteVideoPlayer';
 
 const PitchPage: React.FC = () => {
+  const checkoutUrl = "https://pay.lowify.com.br/go.php?offer=ilrbxqy";
+
   return (
     <main className="flex flex-col items-center bg-white min-h-screen">
       {/* Top Banner */}
@@ -30,7 +32,7 @@ const PitchPage: React.FC = () => {
 
         <div className="flex flex-col items-center px-4">
           <a
-            href="https://pay.hotmart.com"
+            href={checkoutUrl}
             className="w-full max-w-lg bg-green-600 hover:bg-green-700 text-white font-black text-xl md:text-3xl px-8 py-6 rounded-2xl shadow-[0_10px_0_0_rgba(21,128,61,1)] active:shadow-none active:translate-y-2 transition-all uppercase tracking-tight text-center"
           >
             QUERO MINHA RECEITA AGORA!
@@ -116,7 +118,7 @@ const PitchPage: React.FC = () => {
         </h2>
         
         <a
-          href="https://pay.hotmart.com"
+          href={checkoutUrl}
           className="inline-block w-full max-w-lg bg-green-600 hover:bg-green-700 text-white font-black text-2xl md:text-3xl px-8 py-6 rounded-2xl shadow-[0_10px_0_0_rgba(21,128,61,1)] active:shadow-none active:translate-y-2 transition-all uppercase tracking-tight"
         >
           GARANTIR MINHA VAGA!
