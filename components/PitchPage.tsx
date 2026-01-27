@@ -4,7 +4,7 @@ import { IMAGES, VIDEO_2_ID, VIDEO_2_PARAMS } from '../constants';
 import LiteVideoPlayer from './LiteVideoPlayer';
 
 const PitchPage: React.FC = () => {
-  const checkoutUrl = "https://app.sellpay.com.br/c/21u9";
+  const checkoutUrl = "https://app.sellpay.com.br/c/n4p8";
 
   return (
     <main className="flex flex-col items-center bg-white min-h-screen">
